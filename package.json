@@ -1,0 +1,26 @@
+{
+   "type": "commonjs",
+   "dependencies": {
+      "@imagekit/nodejs": "^7.3.0",
+      "bcrypt": "^6.0.0",
+      "cookie-parser": "^1.4.7",
+      "cors": "^2.8.6",
+      "dotenv": "^17.2.4",
+      "express": "^4.22.1",
+      "imagekit": "^6.0.0",
+      "init": "^0.1.2",
+      "jsonwebtoken": "^9.0.3",
+      "mongoose": "^9.1.6",
+      "multer": "^2.0.2",
+      "path": "^0.12.7",
+      "uuid": "^13.0.0"
+   },
+   "scripts": {
+      "dev": "nodemon backend/startserver.js",
+      "build": "cd frontend && npm run build",
+      "start": "nodemon backend/startserver.js"
+   },
+   "devDependencies": {
+      "nodemon": "^3.1.11"
+   }
+}

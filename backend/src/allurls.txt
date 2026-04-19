@@ -1,0 +1,3 @@
+http://localhost:5000/api/auth/login
+http://localhost:5000/api/foodpartner/partner/login
+http://localhost:5000/api/fooditems
