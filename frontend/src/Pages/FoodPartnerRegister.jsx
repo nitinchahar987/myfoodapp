@@ -24,7 +24,7 @@ const FoodPartnerRegister = () => {
     headers: {
       'Content-Type': 'application/json'
     }});
-      console.log(response.data);
+      
       navigate('/food-partner/login');
     } catch (error) {
       console.error('Error registering food partner:', error);

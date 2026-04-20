@@ -15,7 +15,7 @@ const UserLogin = () => {
       email,
       password
     },{withCredentials:true});
-    console.log(response.data);
+    
     navigate('/see-all-foods');
   }
 

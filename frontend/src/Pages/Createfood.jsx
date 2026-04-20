@@ -121,7 +121,7 @@ const Createfood = () => {
         }
       )
 
-      console.log('Food item created successfully:', response.data)
+      
       setSuccessMessage('Food item created successfully!')
       navigate('/')
       // Reset form after successful submission

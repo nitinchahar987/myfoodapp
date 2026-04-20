@@ -15,7 +15,7 @@ const FoodPartnerLogin = () => {
       email,
       password
     },{withCredentials:true});
-    console.log(response.data);
+    
     navigate('/create-food');
   }
   return (

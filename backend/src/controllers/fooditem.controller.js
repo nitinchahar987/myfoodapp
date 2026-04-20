@@ -28,7 +28,7 @@ const getFoodItems=async (req,res)=>{
 
 const foodItemsbyid=async (req,res)=>{
     const foodpartnerid=req.params.id
-    console.log("ID from frontend:", req.params.id);
+  
     const fooditems=await foodItem.find({foodpartner:foodpartnerid})
     res.status(200).json({message:"Food items fetched successfully",fooditems})
 }

@@ -17,7 +17,7 @@ const UserRegister = () => {
       phone,
       password
     },{withCredentials:true});
-    console.log(response.data);
+    
     navigate('/user/login');
   }
   return (
