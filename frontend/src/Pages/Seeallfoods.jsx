@@ -82,7 +82,7 @@ const Seeallfoods = () => {
   const handleLike = async (id, index) => {
     try {
       await axios.post(
-        "http://localhost:5000/api/fooditems/like",
+        "https://myfoodapp-2.onrender.com/api/fooditems/like",
         { fooditemid: id },
         { withCredentials: true }
       )

@@ -13,7 +13,7 @@ const FoodPartnerStore = ({ partnerData = {}, products = [] }) => {
   
   
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/fooditems/food-partneritems/${Id}`, { withCredentials: true })
+    axios.get(`https://myfoodapp-2.onrender.com/api/fooditems/food-partneritems/${Id}`, { withCredentials: true })
         .then(response => {
           
           setOwnerid( response.data.fooditems[0].foodpartner);

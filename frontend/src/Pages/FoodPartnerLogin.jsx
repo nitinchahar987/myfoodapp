@@ -11,7 +11,7 @@ const FoodPartnerLogin = () => {
 
   const handlesubmit = async (e) => {
     e.preventDefault();
-    const response = await axios.post('http://localhost:5000/api/foodpartner/partner/login', {
+    const response = await axios.post('https://myfoodapp-2.onrender.com/api/foodpartner/partner/login', {
       email,
       password
     },{withCredentials:true});

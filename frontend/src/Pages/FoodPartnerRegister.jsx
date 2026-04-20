@@ -17,7 +17,7 @@ const FoodPartnerRegister = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/foodpartner/partner/signup', 
+      const response = await axios.post('https://myfoodapp-2.onrender.com/api/foodpartner/partner/signup', 
         
         { name, contactName, email, phone, password, address },  {
     withCredentials: true,
